@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language-pack>
+	<header>
+		<author>Moxiecode Systems AB</author>
+		<version minor="2" major="0" releasedate="2005-10-28" />
+		<description>
+		This is the English language pack for the MCImageManager.
+		</description>
+	</header>
+
+	<language code="en" title="English" dir="ltr">
+
+
+		<group target="error">
+			<item name="tofile_exists">¿¿¿¿ ¿¿¿ ¿¿¿¿¿¿¿¿¿¿.</item>
+			<item name="no_from_file">¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿¿¿¿.</item>
+			<item name="demo">¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿ ¿ ¿¿¿¿-¿¿¿¿¿¿.</item>
+			<item name="invalid_filename">¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿¿¿¿¿.</item>
+			<item name="no_read_access">¿¿¿ ¿¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿ ¿¿¿¿¿/¿¿¿¿¿.</item>
+			<item name="no_write_access">¿¿¿ ¿¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿ ¿¿¿¿¿/¿¿¿¿¿.</item>
+			<item name="copy_failed">¿¿¿¿¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿.</item>
+			<item name="move_failed">¿¿¿¿¿¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="template_missing">¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿.</item>
+			<item name="createdoc_failed">¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿.</item>
+			<item name="no_access">¿ ¿¿¿ ¿¿¿ ¿¿¿¿¿¿¿ ¿¿¿ ¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿ ¿¿¿¿¿¿¿¿.</item>
+			<item name="file_exists">¿¿¿¿ ¿¿¿ ¿¿¿¿¿¿¿¿¿¿.</item>
+			<item name="upload_failed">¿¿¿¿ ¿¿¿ ¿¿¿¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿ ¿¿¿¿¿¿.</item>
+			<item name="error_to_large">¿¿¿ ¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿.</item>
+			<item name="file_not_exists">¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿¿¿¿.</item>
+			<item name="delete_failed">¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="folder_exists">¿¿¿¿¿ ¿¿¿ ¿¿¿¿¿¿¿¿¿¿.</item>
+			<item name="no_filesystem">¿¿ ¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿.</item>
+			<item name="createdir_failed">¿¿¿¿¿¿¿ ¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="createzip_failed">¿¿¿¿¿¿¿ ¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="rename_failed">¿¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="savecontent_failed">¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿</item>
+		</group>
+
+		<group target="message">
+			<item name="zip_success">¿¿¿¿¿ ¿¿¿¿¿¿¿ ¿¿¿¿¿¿.</item>
+			<item name="copy_success">¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="move_success">¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="createdoc_success">¿¿¿¿¿¿¿¿ ¿¿¿ ¿¿¿¿¿¿¿ ¿¿¿¿¿¿</item>
+			<item name="delete_success">¿¿¿¿¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="directory_ok">¿¿¿¿¿ ¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="keepalive">Keepalive</item>
+			<item name="upload_ok">¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="confirm_cut">¿¿ ¿¿¿¿¿¿¿, ¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿?</item>
+			<item name="confirm_copy">¿¿ ¿¿¿¿¿¿¿, ¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿?</item>
+			<item name="confirm_paste">¿¿ ¿¿¿¿¿¿¿, ¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿ ¿¿¿¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿¿/¿¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿ ?</item>
+			<item name="confirm_delete">¿¿ ¿¿¿¿¿¿¿, ¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿?</item>
+			<item name="insert">¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿ ...</item>
+			<item name="paste_in_progress">¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿ ...</item>
+		</group>
+
+		<group target="common">
+			<item name="createdir">¿¿¿¿¿¿¿ ¿¿¿¿¿</item>
+			<item name="createfile">¿¿¿¿¿ ¿¿¿¿</item>
+			<item name="help">¿¿¿¿¿¿</item>
+			<item name="refresh">¿¿¿¿¿¿¿¿</item>
+			<item name="upload">¿¿¿¿¿¿¿¿¿</item>
+			<item name="directory">¿¿¿¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="imagemanager">Image Manager</item>
+			<item name="title">Moxiecode File Manager</item>
+			<item name="alert_ok">Ok</item>
+			<item name="confirm_yes">¿¿</item>
+			<item name="confirm_no">¿¿¿</item>
+		</group>
+
+		<group target="button">
+			<item name="create">¿¿¿¿¿¿¿</item>
+			<item name="cancel">¿¿¿¿¿¿¿</item>
+			<item name="save">¿¿¿¿¿¿¿¿¿</item>
+		</group>
+
+		<group target="panel">
+			<item name="categories">¿¿¿¿¿¿¿¿¿</item>
+			<item name="preview">¿¿¿¿¿¿¿¿¿¿¿¿</item>
+
+			<!-- Legacy items -->
+			<item name="favorites">¿¿¿¿¿¿¿¿¿</item>
+			<item name="history">¿¿¿¿¿¿¿</item>
+		</group>
+
+		<group target="edit">
+			<item name="title">¿¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿</item>
+			<item name="description">¿¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿</item>
+			<item name="loading_wait">¿¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿¿. ¿¿¿¿¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿¿.</item>
+			<item name="saving_wait">¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿¿. ¿¿¿¿¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿¿</item>
+			<item name="file_path">¿¿¿¿ ¿ ¿¿¿¿¿:</item>
+		</group>
+
+		<group target="actions">
+			<item name="insert">¿¿¿¿¿¿¿¿</item>
+			<item name="download">¿¿¿¿¿¿¿¿¿</item>
+			<item name="rename">¿¿¿¿¿¿¿¿¿¿¿¿¿</item>
+			<item name="cut">¿¿¿¿¿¿¿¿</item>
+			<item name="copy">¿¿¿¿¿¿¿¿¿¿</item>
+			<item name="paste">¿¿¿¿¿¿¿¿</item>
+			<item name="deleteit">¿¿¿¿¿¿¿</item>
+			<item name="edit">¿¿¿¿¿¿¿</item>
+			<item name="zip">¿¿¿¿¿</item>
+			<item name="view">¿¿¿</item>
+			<item name="select_all">¿¿¿¿¿¿¿¿¿ ¿¿¿</item>
+			<item name="unselect_all">¿¿¿¿¿ ¿¿ ¿¿¿¿ ¿¿¿¿¿¿¿¿¿</item>
+
+			<!-- Legacy items -->
+			<item name="addfavorites">¿¿¿¿¿¿¿¿ ¿ ¿¿¿¿¿¿¿¿¿(-¿¿)</item>
+			<item name="removefavorites">¿¿¿¿¿¿¿ ¿ ¿¿¿¿¿¿¿¿¿¿(-¿¿)</item>
+		</group>
+
+		<group target="filelist">
+			<item name="filename">¿¿¿ ¿¿¿¿¿</item>
+			<item name="size">¿¿¿¿¿¿</item>
+			<item name="type">¿¿¿</item>
+			<item name="modified">¿¿¿¿¿¿¿¿¿ ¿¿¿¿</item>
+			<item name="with_selected">¿ ¿¿¿¿¿¿¿¿¿</item>
+			<item name="info_dirs">¿¿¿¿¿:</item>
+			<item name="info_files">¿¿¿¿¿:</item>
+			<item name="info_size">¿¿¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿:</item>
+			<item name="info_access">¿¿¿¿¿¿:</item>
+			<item name="loading">¿¿¿¿¿¿¿¿...</item>
+		</group>
+
+		<group target="createdir">
+			<item name="title">¿¿¿¿¿¿¿ ¿¿¿¿¿</item>
+			<item name="description">¿¿¿¿¿¿¿¿ ¿¿¿ ¿¿¿ ¿¿¿¿¿, ¿¿¿¿¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿</item>
+			<item name="template">¿¿¿¿¿¿:</item>
+			<item name="select_template">-- ¿¿¿¿¿¿¿ ¿¿¿¿¿¿ --</item>
+			<item name="directory_name">¿¿¿¿¿¿¿¿ ¿¿¿¿¿:</item>
+			<item name="create_in">¿¿¿¿¿¿¿ ¿:</item>
+			<item name="progress">¿¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿...</item>
+		</group>
+
+		<group target="createdoc">
+			<item name="title">¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿</item>
+			<item name="description">¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿ ¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿.</item>
+			<item name="template">¿¿¿¿¿¿:</item>
+			<item name="select_template">-- ¿¿¿¿¿¿¿ ¿¿¿¿¿¿ --</item>
+			<item name="name">¿¿¿</item>
+			<item name="path">¿¿¿¿</item>
+			<item name="preview">¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿</item>
+			<item name="preview_title">¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿: {file}</item>
+		</group>
+
+		<group target="upload">
+			<item name="title">¿¿¿¿¿¿¿¿</item>
+			<item name="description">¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿ ¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿.</item>
+			<item name="valid_extensions">¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿:</item>
+			<item name="max_upload_size">¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿</item>
+			<item name="file_to_upload">¿¿¿¿ ¿¿¿ ¿¿¿¿¿¿¿¿:</item>
+			<item name="as_file_name">¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿:</item>
+			<item name="path">¿¿¿¿: </item>
+			<item name="button_upload">¿¿¿¿¿¿¿¿</item>
+			<item name="browse">¿¿¿¿¿¿¿¿ ¿¿¿¿(¿¿¿¿¿)</item>
+			<item name="progress">¿¿¿¿¿¿¿¿...</item>
+			<item name="upload_warn">¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿¿. ¿¿ ¿¿¿¿¿¿¿, ¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿?</item>
+			<item name="statusrow">¿¿¿¿ ¿¿¿¿¿ {files} ¿¿¿¿¿ (total {size}) ¿¿¿¿¿¿ ¿ ¿¿¿¿¿¿¿¿</item>
+			<item name="progressinfo">{loaded} of {total} uploaded at {speed}/s.</item>
+			<item name="abort">¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿</item>
+			<item name="add_more">¿¿¿¿¿¿¿¿ ¿¿¿?</item>
+			<item name="upload_to_server">¿¿¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿</item>
+			<item name="cancelled">¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿</item>
+			<item name="choose_files">¿¿¿¿¿¿¿¿ ¿¿¿¿¿</item>
+			<item name="basic_upload">¿¿¿¿ ¿ ¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿ ¿¿¿¿¿¿¿¿ - ¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿¿¿ {a}¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿{/a}.</item>
+			<item name="remove">¿¿¿¿¿¿¿</item>
+			<item name="file">¿¿¿¿</item>
+			<item name="size">¿¿¿¿¿¿</item>
+			<item name="status">¿¿¿¿¿¿</item>
+			<item name="no_valid_files">¿¿¿ ¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿¿, ¿¿¿¿¿¿¿¿¿¿ ¿¿¿ ¿¿¿</item>
+		</group>
+
+		<group target="createzip">
+			<item name="title">¿¿¿¿¿¿¿ ¿¿¿¿¿</item>
+			<item name="description">¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿, ¿¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿.</item>
+			<item name="name">¿¿¿:</item>
+			<item name="path">¿¿¿¿</item>
+		</group>
+
+		<group target="tinymce">
+			<item name="insertfile_desc">¿¿¿¿¿¿¿¿ ¿¿¿¿</item>	
+		</group>
+
+		<group target="favorites">
+			<item name="special_folder_title">¿¿¿¿¿¿¿¿¿</item>
+			<item name="addfavorites">¿¿¿¿¿¿¿¿ ¿ ¿¿¿¿¿¿¿¿¿</item>
+			<item name="removefavorites">¿¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿¿¿</item>
+			<item name="confirm_remove_favorite">¿¿ ¿¿¿¿¿¿¿, ¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿?</item>
+			<item name="remove_favorite_failed">¿¿ ¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿ ¿¿¿¿ ¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿.</item>
+		</group>
+
+		<group target="history">
+			<item name="special_folder_title">¿¿¿¿¿¿¿</item>
+		</group>
+	</language>
+</language-pack>
+

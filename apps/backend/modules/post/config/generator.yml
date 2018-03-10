@@ -1,0 +1,47 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Post
+    theme:                 board
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          post
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        name: 			{ label: Наименование }
+        anonce: 		{ label: Анонс }
+        text: 		    { label: Текст }
+        img: 			{ label: Изображение }
+        image: 			{ label: Изображение }
+        public: 		{ label: Опубликовано}
+        created_at:     {label: Создано}    
+        updated_at:     {label: Изменено}    
+        metadesc: 	    { label: Metadescription }      
+      list:    
+        title: Статьи
+        object_actions:
+          _edit: {label:'Изменить'}   
+        sort: [created_at, desc]
+        display:        
+          - _image
+          - _text
+          - created_at
+          - public        
+      filter:  ~
+      form:    ~
+      edit:    
+        title: Изменить "%%name%%"    
+        display:    
+          "Наименование": [name]   
+          "Публикация": [created_at, public]          
+          "Изображение": [img]       
+          "Контент": [anonce, text]           
+          "META": [title, keywords, metadesc]        
+      new:     
+        title: Добавить статью      

@@ -1,0 +1,63 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Girl
+    theme:                 board
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          girl
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        name: 			{ label: Наименование }
+        content: 		{ label: Описание }
+        text: 		    { label: Текст }
+        img: 			{ label: Изображение }
+        image: 			{ label: Изображение }
+        public: 		{ label: Опубликовано}
+        Cityes: 		{ label: Город }
+        city_id: 		{ label: Город }
+      list:    
+        title: Девушки 
+        display:        
+          - _image
+          - _text
+          - public 
+        object_actions:
+          first:
+            action: first
+            label: _&nbsp;
+          promote:
+            action: promote
+            label: _&nbsp;
+          demote:
+            action: demote
+            label: _&nbsp;
+          last:
+            action: last
+            label: _&nbsp;
+          _edit: {label:'Изменить'}            
+        sort: [position, asc]
+      filter:  ~
+      form:    ~
+      edit:    
+        title: Изменить "%%name%%" 
+        display:          
+          - name
+          - public          
+          - city_id  
+          - content
+          - img
+      new:     
+        title: Добавить
+        display:          
+          - name
+          - public          
+          - city_id  
+          - price  
+          - img   

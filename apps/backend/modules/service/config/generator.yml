@@ -1,0 +1,75 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Service
+    theme:                 board
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          service
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        name: 			{ label: Наименование }
+        name_short: 	{ label: Короткое наименование }
+        content: 		{ label: Текст }
+        content_short: 	{ label: Короткий текст }
+        text: 		    { label: Текст }
+        img: 			{ label: Изображение }
+        image: 			{ label: Изображение }
+        public: 		{ label: Опубликовано}
+        duration: 		{ label: Продолжительность}
+        price: 		    { label: Цена}
+        Cityes: 		{ label: Город }
+        city_id: 		{ label: Город }
+      list:    
+        title: Виды массажа 
+        display:        
+          - _image
+          - _text
+          - public 
+        object_actions:
+          first:
+            action: first
+            label: _&nbsp;
+          promote:
+            action: promote
+            label: _&nbsp;
+          demote:
+            action: demote
+            label: _&nbsp;
+          last:
+            action: last
+            label: _&nbsp;
+          _edit: {label:'Изменить'}            
+        sort: [position, asc]          
+      filter:  ~
+      form:    ~
+      edit:    
+        title: Изменить "%%name%%" 
+        display:          
+          - name
+          - name_short
+          - public          
+          - city_id  
+          - price  
+          - duration
+          - content
+          - content_short
+          - img
+      new:     
+        title: Добавить
+        display:          
+          - name
+          - name_short          
+          - public          
+          - city_id  
+          - price  
+          - duration
+          - content
+          - content_short          
+          - img        

@@ -1,0 +1,61 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           SxGeoCity
+    theme:                 board
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          sx_geo_city
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        public_active: 	{ label: Активный }      
+        area_id: 	    { label: Область }      
+        Area: 	        { label: Область }      
+        address: 	    { label: Адрес }      
+      list:
+        title: Города 
+        display: 
+          - =id   
+          - _name
+          - _myarea
+#          - Area
+          - _point
+          - ~test
+          - public_active
+        max_per_page:  100          
+        object_actions:     
+          _edit: {label:'Изменить'}      
+          _delete: {label:'Удалить'}      
+        sort: [name, asc]          
+      filter:  ~
+      form:
+        class: SxGeoCityAdminForm
+      edit:    
+        title: Изменить город <u>%%id%%</u> - "%%name%%"
+        actions: 
+          _save: []	
+          _list: []	 
+        display:       
+          - name
+          - name_en
+          - area_id
+          - address
+          - lat
+          - lon
+          - public_active          
+      new:     
+        title: Добавить город
+        display:       
+          - name
+          - name_en
+          - area_id
+          - address
+          - lat
+          - lon
+          - public_active        

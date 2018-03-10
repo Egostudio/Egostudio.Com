@@ -1,0 +1,44 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: main, action: index }
+massages:
+  url:   /massages
+  param: { module: main, action: massages }
+posts:
+  url:   /posts
+  param: { module: main, action: posts }  
+post:
+  url:   /post/:slug.html
+  class:   sfDoctrineRoute  
+  options: { model: post, type: object }  
+  param:   { module: main, action: post}
+girl:
+  url:   /girl
+  param: { module: main, action: girl }  
+gallery:
+  url:   /gallery
+  param: { module: main, action: gallery }    
+modal:
+  url:   /modal
+  param: { module: main, action: modal }  
+massage:
+  url: /massage/:slug.html
+  class:   sfDoctrineRoute
+  options: { model: service, type: object }
+  param:   { module: main, action: massage} 
+ajax_city:
+  url:   /ajax-city/:id
+  param: { module: main, action: ajaxCity }  
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language-pack>
+	<header>
+		<author>Moxiecode Systems AB</author>
+		<version minor="2" major="0" releasedate="2005-10-28" />
+		<description>
+			This is the English language pack for the MCFileManager.
+		</description>
+	</header>
+
+	<language code="en" title="English" dir="ltr">
+	
+
+	
+		<group target="error">
+			<item name="tofile_exists">Файл уже существует.</item>
+			<item name="no_from_file">Файла не существует.</item>
+			<item name="demo">Это действие ограничено в демо-режиме.</item>
+			<item name="invalid_filename">Файл не является действительным.</item>
+			<item name="no_read_access">Нет доступа на чтение этого файла/папки.</item>
+			<item name="no_write_access">Нет доступа на запись этого файла/папки.</item>
+			<item name="copy_failed">Копировать не удалось.</item>
+			<item name="move_failed">Переместить не удалось</item>
+			<item name="template_missing">Шаблон не найден.</item>
+			<item name="createdoc_failed">Создать документ не удалось.</item>
+			<item name="no_access">У вас нет доступа для выполнения этой операции.</item>
+			<item name="file_exists">Файл уже существует.</item>
+			<item name="upload_failed">Сбой при загрузке, проверить папки записи.</item>
+			<item name="error_to_large">Был достигнут максимальный размер файла.</item>
+			<item name="file_not_exists">Файл не существует.</item>
+			<item name="delete_failed">Не удалено</item>
+			<item name="folder_exists">Папка уже существует.</item>
+			<item name="no_filesystem">Не найдено файловых систем.</item>
+			<item name="createdir_failed">Создать папку не удалось</item>
+			<item name="createzip_failed">Саздать архив не удалось</item>
+			<item name="rename_failed">Переименовать не удалось</item>
+			<item name="savecontent_failed">Сохранить содержимое не удалось</item>
+		</group>
+
+		<group target="message">
+			<item name="zip_success">Архив успешно создан.</item>
+			<item name="copy_success">Скопировано успешно</item>
+			<item name="move_success">Перемещение прошло успешно</item>
+			<item name="createdoc_success">Документ был успешно создан</item>
+			<item name="delete_success">Удалён успешно</item>
+			<item name="directory_ok">Папка создана успешна</item>
+			<item name="keepalive">Keepalive</item>
+			<item name="upload_ok">Загружено успешно</item>
+			<item name="confirm_cut">Вы уверены, что хотите вырезать выбранные файлы?</item>
+			<item name="confirm_copy">Вы уверены, что хотите скопировать выбранные файлы?</item>
+			<item name="confirm_paste">Вы уверены, что хотите здесь вставить, вырезанные/скопированные файлы ?</item>
+			<item name="confirm_delete">Вы уверены, что хотите удалить выбраные файлы?</item>
+			<item name="insert">Загрузка данных, пожалуйста, подождите ...</item>
+			<item name="paste_in_progress">Происходит вставка, пожалуйста, подождите ...</item>
+		</group>
+
+		<group target="common">
+			<item name="createdir">Создать папку</item>
+			<item name="createfile">Новый файл</item>
+			<item name="help">Помощь</item>
+			<item name="refresh">Обновить</item>
+			<item name="upload">Загрузить</item>
+			<item name="directory">Папка выбрана</item>
+			<item name="imagemanager">Image Manager</item>
+			<item name="title">Moxiecode File Manager</item>
+			<item name="alert_ok">Ok</item>
+			<item name="confirm_yes">Да</item>
+			<item name="confirm_no">Нет</item>
+		</group>
+
+		<group target="button">
+			<item name="create">Создать</item>
+			<item name="cancel">Закрыть</item>
+			<item name="save">Сохранить</item>
+		</group>
+
+		<group target="panel">
+			<item name="categories">Категории</item>
+			<item name="preview">Предпросмотр</item>
+
+			<!-- Legacy items -->
+			<item name="favorites">Избранные</item>
+			<item name="history">История</item>
+		</group>
+
+		<group target="edit">
+			<item name="title">Редактировать файл</item>
+			<item name="description">Редактировать содержимое файла</item>
+			<item name="loading_wait">Идет загрузка содержимого. Подождите, пожалуйста.</item>
+			<item name="saving_wait">Идёт сохранения содержимого. Подождите, пожалуйста</item>
+			<item name="file_path">Путь к файлу:</item>
+		</group>
+
+		<group target="actions">
+			<item name="insert">Вставить</item>
+			<item name="download">Загрузить</item>
+			<item name="rename">Переименовать</item>
+			<item name="cut">Вырезать</item>
+			<item name="copy">Копировать</item>
+			<item name="paste">Вставить</item>
+			<item name="deleteit">Удалить</item>
+			<item name="edit">Править</item>
+			<item name="zip">Архив</item>
+			<item name="view">Вид</item>
+			<item name="select_all">Проверить всё</item>
+			<item name="unselect_all">Снять со всех выделение</item>
+
+			<!-- Legacy items -->
+			<item name="addfavorites">Добавить в избранный(-ые)</item>
+			<item name="removefavorites">Удалить с избранного(-ой)</item>
+		</group>
+
+		<group target="filelist">
+			<item name="filename">Имя файла</item>
+			<item name="size">Размер</item>
+			<item name="type">Тип</item>
+			<item name="modified">Изменение даты</item>
+			<item name="with_selected">С выбранным</item>
+			<item name="info_dirs">Папки:</item>
+			<item name="info_files">Файлы:</item>
+			<item name="info_size">Общий размер файлов:</item>
+			<item name="info_access">Доступ:</item>
+			<item name="loading">Загрузка...</item>
+		</group>
+
+		<group target="createdir">
+			<item name="title">Создать папку</item>
+			<item name="description">Вставить имя для папки, которую хотите создать</item>
+			<item name="template">Шаблон:</item>
+			<item name="select_template">-- Выбрать шаблон --</item>
+			<item name="directory_name">Название папки:</item>
+			<item name="create_in">Создано в:</item>
+			<item name="progress">Идёт создание папки, пожадуйста, подождите...</item>
+		</group>
+
+		<group target="createdoc">
+			<item name="title">Создание документа</item>
+			<item name="description">Заполните форму для создания нового документа из шаблона.</item>
+			<item name="template">Шаблон:</item>
+			<item name="select_template">-- Выбрать шаблон --</item>
+			<item name="name">Имя</item>
+			<item name="path">Путь</item>
+			<item name="preview">Предварительный просмотр</item>
+			<item name="preview_title">Предварительный просмотр: {file}</item>
+		</group>
+
+		<group target="upload">
+			<item name="title">Закачать</item>
+			<item name="description">Используйте форму для загрузки файлов.</item>
+			<item name="valid_extensions">Используемые расширения:</item>
+			<item name="max_upload_size">Максимальный размер загружаемого файла</item>
+			<item name="file_to_upload">Файл для загрузки:</item>
+			<item name="as_file_name">Как название файла:</item>
+			<item name="path">Путь: </item>
+			<item name="button_upload">Закачать</item>
+			<item name="browse">Добавить файл(файлы)</item>
+			<item name="progress">Загрузка...</item>
+			<item name="upload_warn">Файлы загружаются. Вы уверены, что хотите отменить загрузку?</item>
+			<item name="statusrow">Ваши файлы {files} файлы (total {size}) готовы к загрузке</item>
+			<item name="progressinfo">{loaded} of {total} uploaded at {speed}/s.</item>
+			<item name="abort">Прервать загрузку</item>
+			<item name="add_more">Добавить ещё?</item>
+			<item name="upload_to_server">Загрузка на сервер</item>
+			<item name="cancelled">Загрузка завершена</item>
+			<item name="choose_files">Выберите файлы</item>
+			<item name="basic_upload">Если у вас возникли проблемы при загрузке - вы всегда сможете использовать {a}основной загрузчик{/a}.</item>
+			<item name="remove">Удалить</item>
+			<item name="file">Файл</item>
+			<item name="size">Размер</item>
+			<item name="status">Статус</item>
+			<item name="no_valid_files">Нет выбранных файлов, пожалуйста, попробуйте ещё раз</item>
+		</group>
+
+		<group target="createzip">
+			<item name="title">Создать архив</item>
+			<item name="description">Введите название архива, который вы хотите создать.</item>
+			<item name="name">Имя:</item>
+			<item name="path">Путь</item>
+		</group>
+
+		<group target="tinymce">
+			<item name="insertfile_desc">Вставить файл</item>	
+		</group>
+
+		<group target="favorites">
+			<item name="special_folder_title">Избранные</item>
+			<item name="addfavorites">Добавить в избранные</item>
+			<item name="removefavorites">Удалить из избранных</item>
+			<item name="confirm_remove_favorite">Вы уверены, что хотите удалить списка избранных?</item>
+			<item name="remove_favorite_failed">Не удалось удалить избранный файл из вашего списка.</item>
+		</group>
+
+		<group target="history">
+			<item name="special_folder_title">История</item>
+		</group>
+
+
+
+	</language>
+</language-pack>
+

@@ -1,0 +1,10 @@
+ #default:
+ # stylesheets:  
+ #   - /assets/global/plugins/font-awesome/css/font-awesome.min.css
+ # javascripts:
+ #   - /assets/global/plugins/respond.min.js
+all:
+  components:
+    breadcrumb: [area,breadcrumb]
+#  stylesheets:  
+#    - /csDoctrineActAsSortablePlugin/css/sortable.css    

@@ -1,0 +1,286 @@
+Area:
+  Area1:
+    name: Винницкая область
+  Area2:
+    name: Волынская область
+  Area3:
+    name: Днепропетровская область
+  Area4:
+    name: Донецкая область
+  Area5:
+    name: Житомирская область
+  Area6:
+    name: Закарпатская область
+  Area7:
+    name: Запорожская область
+  Area8:
+    name: Ивано-Франковская область
+  Area9:
+    name: Киевская область
+  Area10:
+    name: Кировоградская область
+  Area11:
+    name: Луганская область
+  Area12:
+    name: Львовская область
+  Area13:
+    name: Николаевская область
+  Area14:
+    name: Одесская область
+  Area15:
+    name: Полтавская область
+  Area16:
+    name: Ровненская область
+  Area17:
+    name: Сумская область
+  Area18:
+    name: Тернопольская область
+  Area19:
+    name: Харьковская область
+  Area20:
+    name: Херсонская область
+  Area21:
+    name: Хмельницкая область
+  Area22:
+    name: Черкасская область
+  Area23:
+    name: Черниговская область
+  Area24:
+    name: Черновицкая область
+    
+<?php $content = "<p>The secret to the motion and the breathtaking volume of this long hair look is purely in the styling. Cut with gentle layers and long tapering on the sides, all the action is blow dried and hot ironed into the long tresses, strand by strand. Seductive and extremely feminine, this breathtaking effect takes some time, but is so worth it. Perfectly balanced and sexy in a warm vanilla blond with subtle hightlights.</p><p>Red is the color of passion, at times even of danger. But who cares about the risk when looking at a deep glowing red that brings the long, silky tresses of this stunningly precious look to live. Large, spiraled curls and waves show off the color with breaking the light in different angles and allowing all of the facets of this stunning red and gold blonde to emerge.</p><p>Donec laoreet lobortis mauris ac semper. Cras id ex nulla. Aenean dictum felis enim, eget iaculis elit aliquet ut. Nulla euismod lacus nec ipsum posuere mollis vel at lacus. Nullam aliquet arcu ut lacus condimentum, et dignissim urna fermentum.</p>"?>
+<?php $anonce = "<p>The secret to the motion and the breathtaking volume of this long hair look is purely in the styling. Cut with gentle layers and long tapering on the sides, all the action is blow dried and hot ironed into the long tresses, strand by strand.</p>"?>
+
+Settings:
+  Settings1:
+    project_name: Erotic Massage Egostudio 
+Service:    
+  Service1:
+    City:  SxGeoCity709930
+    name: Bridal Makeup
+    duration: 25 - 35 минут
+    price: 370
+    content: <?php echo $content; ?> 										
+    img: img1.jpg 										
+  Service2:
+    City:  SxGeoCity709930
+    name: Commercial Makeup
+    price: 380
+    content: <?php echo $content; ?> 
+    img: img2.jpg 										
+  Service3:
+    City:  SxGeoCity709930
+    name: Party Makeup
+    duration: 25 - 35 минут
+    price: 450
+    content: <?php echo $content; ?> 
+    img: img3.jpg 										
+  Service4:
+    City:  SxGeoCity709930
+    name: Theatrical Makeup
+    duration: 25 - 35 минут
+    price: 890
+    content: <?php echo $content; ?> 
+    img: img4.jpg 										
+  Service5:
+    City:  SxGeoCity709930
+    name: Television Makeup
+    duration: 25 - 35 минут
+    price: 240
+    content: <?php echo $content; ?> 
+    img: img5.jpg 
+  Service6:
+    City:  SxGeoCity709930
+    name: Movie Makeup
+    duration: 25 - 35 минут
+    price: 300
+    content: <?php echo $content; ?> 
+    img: img6.jpg 										
+  Service7:
+    City:  SxGeoCity709930
+    name: Theatrical Makeup
+    duration: 25 - 35 минут
+    price: 350
+    content: <?php echo $content; ?> 
+    img: img7.jpg 										
+  Service8:
+    City:  SxGeoCity709930
+    name: Commercial Makeup
+    duration: 25 - 35 минут
+    price: 420
+    content: <?php echo $content; ?> 
+    img: img8.jpg 										
+Post:
+  Post1:
+    name: Latest Make-up Trends for Weddings
+    anonce: <?php echo $anonce; ?> 
+    img: post1.jpg    
+    text: <?php echo $content; ?> 
+  Post2:
+    name: Latest Make-up Trends for Theatre
+    anonce: <?php echo $anonce; ?> 
+    img: post2.jpg    
+    text: <?php echo $content; ?> 
+  Post3:
+    name: Latest Make-up Trends for Stadion
+    anonce: <?php echo $anonce; ?> 
+    img: post3.jpg    
+    text: <?php echo $content; ?> 
+
+SxGeoCity:
+  SxGeoCity709930:
+    id: 709930 
+    region_id: 709929 
+    name: Днепр
+    name_en: Dnipro
+    lat:  48.45
+    lon: 34.98333
+    okato: 1210100000
+  SxGeoCity687196:
+    id: 687196 
+    region_id: 709929 
+    name: Жёлтые Воды
+    name_en: Zhovti Vody
+    lat:  48.34731
+    lon: 33.50034
+    okato: 1210700000
+  SxGeoCity699445:
+    id: 699445 
+    region_id: 709929 
+    name: Новомосковск
+    name_en: Novomoskovsk
+    lat:  48.63798
+    lon: 35.24548
+    okato: 1211900000
+  SxGeoCity709932:
+    id: 709932 
+    region_id: 709929 
+    name: Каменское
+    name_en: Kamianske
+    lat:  48.51134
+    lon: 34.6021
+    okato: 1210400000
+  SxGeoCity698436:
+    id: 698436 
+    region_id: 709929 
+    name: Орджоникидзе
+    name_en: Ordzhonikidze
+    lat:  47.66762
+    lon: 34.05957
+    okato: 1212100000
+  SxGeoCity691628:
+    id: 691628 
+    region_id: 709929 
+    name: Терновка
+    name_en: Ternivka
+    lat: 48.51928
+    lon: 36.09675
+    okato: 1213500000
+  SxGeoCity697889:
+    id: 697889 
+    region_id: 709929 
+    name: Павлоград
+    name_en: Pavlohrad
+    lat: 48.53341
+    lon: 35.8705
+    okato: 1212400000
+  SxGeoCity700051:
+    id: 700051 
+    region_id: 709929 
+    name: Никополь
+    name_en: Nikopol
+    lat: 47.57119
+    lon: 34.39637
+    okato: 1211600000
+  SxGeoCity703845:
+    id: 703845 
+    region_id: 709929 
+    name: Кривой Рог
+    name_en: Kryvyy Rih
+    lat: 47.90966
+    lon: 33.38044
+    okato: 1211000000
+  SxGeoCity701855:
+    id: 701855 
+    region_id: 709929 
+    name: Марганец
+    name_en: Marhanets
+    lat: 47.63543
+    lon: 34.62769
+    okato: 1211300000
+  SxGeoCity689200:
+    id: 689200 
+    region_id: 709929 
+    name: Вольногорск
+    name_en: Vilnohirsk
+    lat: 48.48553
+    lon: 34.02297
+    okato: 1210200000
+Gallery:
+  Gallery1:
+    name: Фото 1
+    img: full1.jpg
+  Gallery2:
+    name: Фото 2
+    img: full2.jpg
+  Gallery3:
+    name: Фото 3
+    img: full3.jpg
+  Gallery4:
+    name: Фото 4
+    img: full4.jpg
+  Gallery5:
+    name: Фото 5
+    img: full5.jpg
+Girl:
+  Girl1:
+    City:  SxGeoCity709930  
+    name: Катя
+    content: Краткое описание 1
+    img: girl1.jpg
+  Girl2:
+    City:  SxGeoCity709930  
+    name: Виолета
+    content: Краткое описание 2    
+    img: girl2.jpg
+  Girl3:
+    City:  SxGeoCity709930  
+    name: Ксения
+    content: Краткое описание 3    
+    img: girl3.jpg
+  Girl4:
+    City:  SxGeoCity709930  
+    name: Юлия
+    content: Краткое описание 4    
+    img: girl4.jpg    
+Collection:
+  Collection1:
+    name: full1
+    img: full1.jpg
+  Collection2:
+    name: full2
+    img: full2.jpg
+  Collection3:
+    name: full3
+    img: full3.jpg
+  Collection4:
+    name: full4
+    img: full4.jpg
+  Collection5:
+    name: full5
+    img: full5.jpg
+  Collection6:
+    name: full6
+    img: full6.jpg
+  Collection7:
+    name: full7
+    img: full7.jpg
+  Collection8:
+    name: full8
+    img: full8.jpg
+  Collection9:
+    name: full9
+    img: full9.jpg
+  Collection10:
+    name: full10
+    img: full10.jpg

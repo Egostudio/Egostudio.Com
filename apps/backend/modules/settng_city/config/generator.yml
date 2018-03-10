@@ -1,0 +1,49 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           SxGeoCity
+    theme:                 board
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          sx_geo_city_settng_city
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        name: 			{ label: Наименование   }
+        telephone: 		{ label: Телефон 1    }
+        telephone2: 	{ label: Телефон 2    }
+        social: 		{ label: Соцсети    }   
+        public: 		{ label: Публ. города }   
+      list:    
+        title: Настройки по городам      
+        table_method: retrieveCitySetting	      
+        display:
+          - =id	      
+          - _name    
+          - telephone
+          - telephone2
+          - _social
+          - public
+        max_per_page:  100          
+        object_actions:     
+          _edit: {label:'Изменить'}   
+        sort: [name, asc]
+      filter:  ~
+      form:    
+      form:    
+        class: SxGeoCitySettingsForm      
+      edit:    
+        title: Изменить телефоны в %%name%%   
+        display:    
+          "Публикация:": [public]   
+          "Телефон:": [telephone,telephone2]        
+          "Соцсети:"": [twitter,instagram,facebook,vk]        
+        actions: 
+          _save: []	
+          _list: []      
+      new:     ~

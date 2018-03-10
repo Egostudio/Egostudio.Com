@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language-pack>
+	<header>
+		<!-- Please fill in contact information (author & email), we might contact you when we are doing updates -->
+		<!-- You will also have the chance to participate in beta releases of new versions -->
+		<author>Moxiecode Systems AB (spam@moxiecode.com)</author>
+		<version minor="2" major="1" releasedate="2006-12-05" />
+		<description>
+			This is the English language pack for the MCImageManager.
+		</description>
+	</header>
+
+	<language code="en" title="English" dir="ltr">
+		<group target="common">
+			<item name="title">Moxiecode Image Manager</item>
+			<item name="filemanager">Файловый менеджер</item>
+			<item name="createdir">Создать папку</item>
+			<item name="refresh">Обновить</item>
+			<item name="upload">Загрузить</item>
+			<item name="help">Помощь</item>
+			<item name="edit">Править</item>
+			<item name="deleteit">Удалить</item>
+			<item name="view">Вид</item>
+			<item name="insert">Вставить</item>
+			<item name="directory">Выбранная папка</item>
+			<item name="loading">Загрузка...</item>
+			<item name="filter">Фильтр</item>
+			<item name="alert_ok">Ok</item>
+			<item name="confirm_yes">Да</item>
+			<item name="confirm_no">Нет</item>
+			<item name="prev">Предпросмотр</item>
+			<item name="next">Следующий</item>
+			<item name="image_data">Получение данных изображений, пожалуйста, подождите ...</item>
+			<item name="page">Страница</item>
+			<item name="of">из</item>
+
+			<!-- Legacy items -->
+			<item name="add_favorite">Добавить избранное</item>
+			<item name="removefavorite">Удалить избранное</item>
+		</group>
+
+		<group target="button">
+			<!-- think about the length of the text -->
+			<item name="create">Создать</item>
+			<item name="cancel">Закрыть</item>
+			<item name="apply">Добавить</item>
+			<item name="save">Сохранить</item>
+		</group>
+
+		<group target="error">
+			<!-- common -->
+			<item name="demo">Это действие ограничено в демо-режиме.</item>
+			<item name="no_filesystem">Нет в системе пути{path}.</item>
+			<item name="no_access">Нет доступа к этому файлу/папке.</item>
+			<item name="no_write_access">Папка не имеет доступ на запись.</item>
+			<item name="file_not_exists">Файла/папки не было найдено.</item>
+			<item name="invalid_filename">Файл не является действительным.</item>
+
+			<!-- create dir -->
+			<item name="template_missing">Выбраный шаблон отсутствует</item>
+			<item name="folder_exists">Папки с указанным именем уже существует.</item>
+			<item name="createdir_failed">Нельзя создать папку</item>
+
+			<!-- upload -->
+			<item name="upload_failed">Сбой при загрузке, проверить папки записи.</item>
+			<item name="file_exists">Файл с указанным именем уже существует.</item>
+			<item name="error_to_large">Файл, который вы пытались загрузить, слишком велик.</item>
+
+			<!-- delete -->
+			<item name="delete_failed">Невозможно удалить файл(-ы).</item>
+			
+			<!-- image edit -->
+			<item name="crop_failed">Не удалось обрезать изображение.</item>
+			<item name="resize_failed">Не удалось обрезать изображение.</item>
+			<item name="rotate_failed">Поворот не произошёл</item>
+			<item name="flip_failed">Отражение не произошло</item>
+			<item name="save_failed">Сохранение не произошло</item>
+
+			<!-- Legacy items -->
+			<item name="remove_favorite_failed">Не удалось удалить избранный файл из вашего списка.</item>
+		</group>
+
+		<group target="message">
+			<!-- common -->
+			<item name="save_success">Файл сохранён</item>
+			<item name="keepalive">Выполните просьбу</item>
+
+			<!-- delete -->
+			<item name="delete_success">Файл(-ы) были успешно удалены.</item>
+
+			<!-- create dir -->
+			<item name="directory_ok">Папка была создана.</item>
+
+			<!-- upload -->
+			<item name="upload_ok">Удачно загружено</item>
+
+			<!-- image edit -->
+			<item name="crop_success">Удачно обрезано</item>
+о			<item name="resize_success">Изображение удачно изменени</item>
+			<item name="rotate_success">Изображение удачно повёрнуто</item>
+			<item name="flip_success">Изображение удачно отражено</item>
+		</group>
+
+		<group target="panel">
+			<item name="categories">Категории</item>
+			<item name="folders">Папки</item>
+
+			<!-- Legacy items -->
+			<item name="favorites">Избранные</item>
+			<item name="history">История</item>
+		</group>
+
+		<group target="view">
+			<item name="title">Вид</item>
+			<item name="mode">Режим просмотра:</item>
+			<item name="thumbnail">Миниатюры</item>
+			<item name="textlist">Text list</item>
+			<item name="images_per_page">картинка/страница</item>
+			<item name="confirm_delete">Вы уверены, что хотите удалить выбраные файлы?</item>
+			<item name="keyboard_next">Клавиши быстрого доступа: SPACE,N,RIGHTARROW,PAGE DOWN</item>
+			<item name="keyboard_prev">Клавиши быстрого доступа: P,LEFTARROW,PAGE UP</item>
+			<item name="dimensions">Размер</item>
+
+			<!-- Legacy items -->
+			<item name="confirm_remove_favorite">Вы уверены, что хотите удалить из списка избранных?</item>
+		</group>
+
+		<group target="createdir">
+			<item name="title">Создать папку</item>
+			<item name="description">Вставить имя для папки, которую хотите создать</item>
+			<item name="template">Шаблон:</item>
+			<item name="select_template">-- Выбрать шаблон --</item>
+			<item name="directory_name">Имя папки:</item>
+			<item name="create_in">Создать в:</item>
+			<item name="progress">Создаётся папка, пожалуйста, подождите...</item>
+		</group>
+
+		<group target="upload">
+			<item name="Title">Загрузить</item>
+			<item name="description">Используйте форму для загрузки файлов.</item>
+			<item name="valid_extensions">Действительный расширениями:</item>
+			<item name="max_upload_size">Максимальный размер загружаемых файлов:</item>
+			<item name="file_to_upload">Файл для загрузки:</item>
+			<item name="as_file_name">Как имя файла:</item>
+			<item name="path">Путь:</item>
+			<item name="button_upload">Загрузить</item>
+			<item name="browse">Добавить файл (ы)</item>
+			<item name="progress">Загружаю .Получение данных..</item>
+			<item name="upload_warn">Файлы загружаются, вы уверены, что хотите отменить загрузку?</item>
+			<item name="statusrow">Вы файлы) (файлов (общий размер ()) с нетерпением ждет, чтобы быть загружен.</item>
+			<item name="progressinfo">(загружен) из () Всего дата на скорости () / S.</item>
+			<item name="abort">Прервать загрузить</item>
+			<item name="add_more">Добавить еще?</item>
+			<item name="upload_to_server">Закачать на сервер</item>
+			<item name="cancelled">загрузка была отменена</item>
+			<item name="choose_files">Выбрать файлы</item>
+			<item name="basic_upload">Если у вас возникли проблемы при загрузке вы всегда можете использовать () основных Uploader (/).</item>
+			<item name="remove">Удалить</item>
+		</group>
+		<group target="edit_image">
+			<item name="title">Moxiecode ImageManager Editor</item>
+			<item name="save">Сохранить</item>
+			<item name="revert">Вернуть</item>
+			<item name="crop">урожая</item>
+			<item name="resize">Изменить размер</item>
+			<item name="please_wait">обработки изображений, пожалуйста подождите ...</item>
+			<item name="constrain">Пропорции</item>
+			<item name="left">Налево</item>
+			<item name="top">Начало</item>
+			<item name="width">Ширина</item>
+			<item name="height">Высота</item>
+			<item name="save_as">Сохранить как</item>
+			<item name="flip">Flip</item>
+			<item name="rotate">Повернуть</item>
+			<item name="reload">Reload</item>
+			<item name="horizontal">Горизонтальные</item>
+			<item name="vertical">Вертикальный</item>
+			<item name="saving_wait">Сохранение изображений, пожалуйста подождите ...</item>
+			<item name="confirm_revert">Вы уверены, что вы хотите вернуться к последней сохраненной изображение?</item>
+			<item name="loading">загрузки изображений, пожалуйста подождите ...</item>
+			<item name="confirm_no_save">Вы уверены, что вы не хотите, чтобы сохранить изменения, внесенные в изображение?</item>
+		</group>
+
+		<group target="tinymce">
+			<item name="insertimage_desc">Вставить картинку </item>
+			<item name="replaceimage_desc">Заменить изображение </item>
+			<item name="editimage_desc">Изменить изображение </item>
+		</group>
+
+
+
+		<group target="favorites">
+			<item name="special_folder_title">Избранные</item>
+			<item name="addfavorites">Добавить в избранные</item>
+			<item name="removefavorites">Удалить из избранных</item>
+			<item name="confirm_remove_favorite">Вы уверены, что хотите удалить списка избранных?</item>
+			<item name="remove_favorite_failed">Не удалось удалить избранный файл из вашего списка.</item>
+		</group>
+
+		<group target="history">
+			<item name="special_folder_title">История</item>
+		</group>
+	</language>
+</language-pack>
+
+

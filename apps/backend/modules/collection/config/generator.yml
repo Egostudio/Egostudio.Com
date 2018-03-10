@@ -1,0 +1,55 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Collection
+    theme:                 board
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          collection
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        name: 			{ label: Наименование   }
+        img: 			{ label: Изображение    }
+        image: 			{ label: Изображение    }
+        public: 		{ label: Опубликовано   } 
+      list:    
+        title: Галлерея
+        display:        
+          - _image
+          - =name
+          - public 
+        object_actions:
+          first:
+            action: first
+            label: _&nbsp;
+          promote:
+            action: promote
+            label: _&nbsp;
+          demote:
+            action: demote
+            label: _&nbsp;
+          last:
+            action: last
+            label: _&nbsp;
+          _edit: {label:'Изменить'}          
+      filter:  ~
+      form:    ~
+      edit:    
+        title: Изменить "%%name%%" 
+        display:          
+          - name
+          - public          
+          - img
+      new:     
+        title: Добавить
+        display:          
+          - name
+          - public          
+          - img
+

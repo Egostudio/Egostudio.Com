@@ -1,0 +1,45 @@
+ #default:
+ # stylesheets:  
+ #   - /assets/global/plugins/font-awesome/css/font-awesome.min.css
+ # javascripts:
+ #   - /assets/global/plugins/respond.min.js
+all:
+  components:
+    breadcrumb: [main,breadcrumb]
+  stylesheets:     
+    - /assets/global/plugins/jqvmap/jqvmap/jqvmap.css
+    - /assets/global/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css
+    - /assets/global/plugins/fullcalendar/fullcalendar.min.css    
+    - /assets/admin/pages/css/tasks.css 
+#    - /simple-player-master/simpleplayer.css   
+  javascripts:    
+
+# BEGIN PAGE LEVEL PLUGINS 
+    - /assets/global/plugins/flot/jquery.flot.min.js
+    - /assets/global/plugins/flot/jquery.flot.resize.min.js
+    - /assets/global/plugins/flot/jquery.flot.categories.min.js
+    - /assets/global/plugins/jquery.pulsate.min.js
+    - /assets/global/plugins/bootstrap-daterangepicker/moment.min.js
+    - /assets/global/plugins/bootstrap-daterangepicker/daterangepicker.js
+# fullcalendar depends on jquery-ui.min.js for drag & drop support
+    - /assets/global/plugins/fullcalendar/fullcalendar.min.js
+    - /assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js
+    - /assets/global/plugins/jquery.sparkline.min.js
+  
+    - /assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js
+    - /assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js
+    - /assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js
+    - /assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js
+    - /assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js
+    - /assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js
+    - /assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js  
+#    - /simple-player-master/jquery.simpleplayer.js    
+testSuccess:
+  components:
+    breadcrumb: [main,breadcrumb]
+  javascripts:    
+    - /audio/audiojs/audio.min.js
+    - /audio/audiojs/audio.settings.js
+
+treeSuccess:
+  has_layout: false    

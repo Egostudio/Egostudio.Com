@@ -1,0 +1,33 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Settings
+    theme:                 board
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          settings
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields: 
+          project_name: {label: Название проекта}         
+          email:   {label:  Email}         
+          logo:   {label: Логотип}         
+      list:    
+        title: Настройки    
+        object_actions:
+          _edit: {label:'_'}     
+        actions: []
+        batch_actions: []        
+      filter:  
+        class: false
+      form:    ~
+      edit:   
+        title: Настройки 
+        actions:
+          save: [] 
+      new:     ~

@@ -1,0 +1,30 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Device
+    theme:                 board
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          device
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        display: 
+          - =id   
+          - _name
+          - _created_at          
+          - _point
+          - ~test
+        sort: [created_at, desc]     
+        actions:        
+          _clear: 	{label:'Очистить'}
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

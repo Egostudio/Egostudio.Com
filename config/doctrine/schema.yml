@@ -1,0 +1,155 @@
+detect_relations: true
+Device:
+  actAs:
+    Timestampable:
+      updated:
+        disabled: true
+  columns:
+    name:           { type:  string(255) }
+    type:           { type:  string(255) }    
+    device:         { type:  string(255) }
+    lat:            { type: decimal(10),scale:7 }
+    lon:            { type: decimal(10),scale:7 }
+    city_id:        { type: integer(11) }    
+  relations:
+    City:
+      class: SxGeoCity
+      onDelete: SET NULL
+      local: city_id
+      foreign: id    
+Settings:      
+  columns:
+    project_name:   { type: string(255) }
+    email:      	{ type: string(255) }
+    logo:      		{ type: string(255) }
+Area:
+  columns:
+    name:           { type: string(255), notnull: true  }  
+    name_en:        { type: string(255) } 
+    lat:            { type: decimal(10),scale:7 }
+    lon:            { type: decimal(10),scale:7 }
+    public:         { type: boolean,default: true }    
+SxGeoCity:
+  columns:
+    region_id:      { type: integer }  
+    area_id:        { type: integer(11) }    
+    name:           { type: string(255), notnull: true  }  
+    name_en:        { type: string(255) }  
+    address:        { type: string(255) }    
+    lat:            { type: decimal(10),scale:7 }
+    lon:            { type: decimal(10),scale:7 }
+    okato:          { type: string(255) }  
+    public:         { type: boolean }    
+    public_active:  { type: boolean }   
+  relations:
+    Area:
+      class: Area
+      onDelete: SET NULL
+      local: area_id
+      foreign: id    
+CitySetting:
+  columns:
+    setting_id: { type: integer }  
+    telephone:  { type: string(255) }
+    telephone2: { type: string(255) }
+    twitter:    { type: string(255) } 
+    instagram:  { type: string(255) } 
+    facebook:   { type: string(255) } 
+    vk:         { type: string(255) }    
+  relations:
+    Cities:
+      class: SxGeoCity
+      foreign: id
+      local: setting_id
+      type: one
+      owningSide: true
+      onDelete: CASCADE
+      foreignType: one
+      foreignAlias: Cities      
+Service:
+  actAs:
+    Sortable:
+      uniqueBy:  [city_id]
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+      builder: [SlugifyClass, Slugify]        
+  columns:
+    city_id:        { type: integer(11) }
+    name:           { type: string(255), notnull: true }
+    name_short:     { type: string(255) }
+    content:        { type: string(2147483647), notnull: true }
+    content_short:  { type: string(2147483647)}
+    duration:       { type: string(255) }
+    img:            { type: string(255) }   
+    price:          { type: integer(5)}
+    public:         { type: boolean,default: true }    
+  relations:
+    City:
+      class: SxGeoCity
+      onDelete: SET NULL
+      local: city_id
+      foreign: id	 
+Girl:
+  actAs:
+    Sortable:
+      uniqueBy:  [city_id]
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+      builder: [SlugifyClass, Slugify]        
+  columns:
+    city_id:    { type: integer(11) }
+    name:       { type: string(255), notnull: true }
+    content:    { type: string(2147483647), notnull: true }
+    img:        { type: string(255) }   
+    public:     { type: boolean,default: true }    
+  relations:
+    City:
+      class: SxGeoCity
+      onDelete: SET NULL
+      local: city_id
+      foreign: id	      
+Gallery:
+  actAs:
+    Sortable: []
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+      builder: [SlugifyClass, Slugify]        
+  columns:
+    name:       { type: string(255), notnull: true }
+    img:        { type: string(255) }   
+    public:     { type: boolean,default: true }   
+Post:
+  actAs:
+    Timestampable: []  
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+      builder: [SlugifyClass, Slugify]    
+  columns:
+    name:      	{ type: string(255), notnull: true }
+    anonce:     { type: string(2147483647) }    
+    text:       { type: string(2147483647) }
+    img:      	{ type: string(255) }    
+    title:  	{ type: string(255)}
+    keywords:  	{ type: string(255)}
+    metadesc:  	{ type: string(2147483647) }  
+    public:   	{ type: boolean, default: true }
+Collection:
+  actAs:
+    Sortable: []
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+      builder: [SlugifyClass, Slugify]
+  columns:
+    name:       { type: string(255), notnull: true }
+    img:        { type: string(255) }   
+    public:     { type: boolean,default: true }

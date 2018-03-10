@@ -1,0 +1,20 @@
+Settings:
+  Setting1:
+    project_name:    Project  
+    email_admin:     support@project.com
+    phone:           +38 067 269 3144
+    address1:        Днепропетровск, пр. Гагарина,
+    address2:        д. 147, 1 корпус, оф. 12
+    schedule1:       Пон - Суб 8.00 - 18.00
+    schedule2:       Воскресенье закр.
+    logo:            logo.png
+Socials:
+  Socials1:
+    google_plus:     
+    facebook:      "https://www.facebook.com/iv.savchuk"   
+    youtube:      "https://www.youtube.com/user/AgroTVro"   
+    vk:              
+    twitter:         
+    instagram:       
+    skype:       "iv.savchuk"
+    rss:            

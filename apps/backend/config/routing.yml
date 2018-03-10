@@ -1,0 +1,125 @@
+device:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Device
+    module:               device
+    prefix_path:          /device
+    column:               id
+    with_wildcard_routes: true
+
+area:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Area
+    module:               area
+    prefix_path:          /area
+    column:               id
+    with_wildcard_routes: true
+
+collection:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Collection
+    module:               collection
+    prefix_path:          /collection
+    column:               id
+    with_wildcard_routes: true
+
+post:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Post
+    module:               post
+    prefix_path:          /post
+    column:               id
+    with_wildcard_routes: true
+
+sx_geo_city_settng_city:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SxGeoCity
+    module:               settng_city
+    prefix_path:          /settng_city
+    column:               id
+    with_wildcard_routes: true
+
+girl:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Girl
+    module:               girl
+    prefix_path:          /girl
+    column:               id
+    with_wildcard_routes: true
+
+gallery:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Gallery
+    module:               gallery
+    prefix_path:          /gallery
+    column:               id
+    with_wildcard_routes: true
+
+settings:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Settings
+    module:               settings
+    prefix_path:          /settings
+    column:               id
+    with_wildcard_routes: true
+service:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Service
+    module:               service
+    prefix_path:          /service
+    column:               id
+    with_wildcard_routes: true
+
+sx_geo_city:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SxGeoCity
+    module:               City
+    prefix_path:          /City
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+cleare_cache:
+  url:   /cleare_cache
+  param: { module: main, action: cleare }
+homepage:
+  url:   /
+  param: { module: main, action: index }
+test:
+  url:   /test
+  param: { module: main, action: test }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+
+connect_data:
+  url:   /connect/data
+  param: { module: connect, action: data }  
+connect_cities:
+  url:   /connect/cities
+  param: { module: connect, action: city }  
+connect_settings:
+  url:   /connect/settings
+  param: { module: connect, action: settings }
+
+connect_settings_test:
+  url:   /connect/settings_test
+  param: { module: connect, action: settings_test }

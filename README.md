@@ -1,2 +1,0 @@
-# Egostudio.Com
-Egostudio.Com
